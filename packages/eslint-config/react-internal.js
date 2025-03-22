@@ -9,7 +9,11 @@ import { config as baseConfig } from "./base.js";
 /**
  * A custom ESLint configuration for libraries that use React.
  *
+<<<<<<< HEAD
  * @type {import("eslint").Linter.Config} */
+=======
+ * @type {import("eslint").Linter.Config[]} */
+>>>>>>> origin/main
 export const config = [
   ...baseConfig,
   js.configs.recommended,

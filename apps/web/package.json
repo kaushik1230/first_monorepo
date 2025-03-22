@@ -12,7 +12,11 @@
   },
   "dependencies": {
     "@repo/ui": "workspace:*",
+<<<<<<< HEAD
     "next": "^15.1.6",
+=======
+    "next": "^15.2.1",
+>>>>>>> origin/main
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -20,9 +24,23 @@
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@repo/db": "workspace:*",
+<<<<<<< HEAD
     "@types/node": "^22",
     "@types/react": "19.0.8",
     "@types/react-dom": "19.0.3",
     "typescript": "5.7.3"
   }
+=======
+    "@types/node": "^22.13.10",
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4",
+    "eslint": "^9.22.0",
+    "typescript": "5.8.2"
+  },
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/create-next-app).",
+  "main": "eslint.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+>>>>>>> origin/main
 }

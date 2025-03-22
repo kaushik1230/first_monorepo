@@ -10,7 +10,11 @@ import { config as baseConfig } from "./base.js";
 /**
  * A custom ESLint configuration for libraries that use Next.js.
  *
+<<<<<<< HEAD
  * @type {import("eslint").Linter.Config}
+=======
+ * @type {import("eslint").Linter.Config[]}
+>>>>>>> origin/main
  * */
 export const nextJsConfig = [
   ...baseConfig,

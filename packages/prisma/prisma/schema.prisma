@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/main
 generator client {
   provider = "prisma-client-js"
 }
@@ -8,7 +12,13 @@ datasource db {
 }
 
 model User {
+<<<<<<< HEAD
   id        String      @id   @default(uuid())
   username  String    @unique
   password  String
+=======
+  id String @id @default(uuid())
+  username String @unique
+  email String @unique
+>>>>>>> origin/main
 }
